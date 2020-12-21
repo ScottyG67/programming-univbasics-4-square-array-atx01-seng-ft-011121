@@ -1,5 +1,5 @@
 require_relative './spec_helper'
-
+require 'pry'
 describe '#square_array' do
 
   it 'does not call on each, collect, map, or inject' do
